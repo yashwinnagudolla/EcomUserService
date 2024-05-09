@@ -30,7 +30,6 @@ public class AuthService {
     private SessionRepository sessionRepository;
     private UserRepository userRepository;
     private BCryptPasswordEncoder bCryptPasswordEncoder;
-
     private SecretKey key;
 
     private MacAlgorithm algo = Jwts.SIG.HS256;
